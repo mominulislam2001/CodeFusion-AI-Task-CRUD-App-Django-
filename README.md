@@ -68,11 +68,11 @@ Screenshots
 
 ### Login
 
-![Login page](project_screenshots/login.png)
+![Login page](/project_screenshots/login.png)
 
 ### All Countries (main table)
 
-![All countries](project_screenshots/all-counties.png)
+![All countries](/project_screenshots/all-counties.png)
 
 ### Search by Country Name
 
@@ -80,20 +80,20 @@ Screenshots
 
 ### Filter by Language
 
-![Language dropdown](project_screenshots/filter-language.png)
-![Language filter result](project_screenshots/filter-language-result.png)
+![Language dropdown](/project_screenshots/filter-language.png)
+![Language filter result](/project_screenshots/filter-language-result.png)
 
 ### Add Country Form
 
-![Add country](project_screenshots/add-country.png)
+![Add country](/project_screenshots/add-country.png)
 
 ### Edit Country
 
-![Edit country](project_screenshots/edit-country.png)
+![Edit country](/project_screenshots/edit-country.png)
 
 ### Details & Same-Region (example)
 
-![Details page](project_screenshots/details.png)
+![Details page](/project_screenshots/details.png)
 
 </div>
 
