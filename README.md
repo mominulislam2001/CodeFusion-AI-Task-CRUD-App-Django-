@@ -49,7 +49,20 @@ A full-stack Django application that
 ```bash
 git clone https://github.com/mominulislam2001/CodeFusionAI-Task.git
 cd CodeFusionAI-Task
+
+
+<div align="center">
+Login
+
+All Countries
+
+Search by Name | Language Filter
+<img src="project_screenshots/search-country.png" width="45%"/> <img src="project_screenshots/filter-language.png" width="45%"/>
+Filter Result | Add Country
+<img src="project_screenshots/filter-language-result.png" width="45%"/> <img src="project_screenshots/add-country.png" width="45%"/>
+Edit Country | Details + Same Region
+<img src="project_screenshots/edit-country.png" width="45%"/> <img src="project_screenshots/Screenshot From 2025-05-07 19-16-05.png" width="45%"/> </div>
 python -m venv venv && source venv/bin/activate
 
 pip install -r requirements.txt
-cp .env.example .env            # edit SECRET_KEY & DB settings as needed
+# edit SECRET_KEY & DB settings as needed
