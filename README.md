@@ -49,6 +49,16 @@ A full-stack Django application that
 ```bash
 git clone https://github.com/mominulislam2001/CodeFusionAI-Task.git
 cd CodeFusionAI-Task
+python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+
+python manage.py makemigrations
+python manage.py migrate
+
+python manage.py fetchcountries
+
+python manage.py createsuperuser   
+python manage.py runserver
 
 ```
 
@@ -83,7 +93,7 @@ Screenshots
 
 ### Details & Same-Region (example)
 
-![Details page](project_screenshots/Screenshot From 2025-05-07 19-16-05.png)
+![Details page](project_screenshots/details.png)
 
 </div>
 
