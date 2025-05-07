@@ -38,7 +38,7 @@ A full-stack Django application that
 | Backend        | Django 4.2, DRF 3.14  | Core framework + REST APIs |
 | DB driver      | `psycopg2-binary`     | PostgreSQL (SQLite fallback for dev) |
 | Frontend       | Bootstrap 5           | Responsive UI |
-| Tests          | pytest-django         | API and management-command coverage |
+
 
 ---
 
@@ -59,6 +59,8 @@ python manage.py fetchcountries
 
 python manage.py createsuperuser   
 python manage.py runserver
+
+pip install -r requirements.txt
 
 ```
 
@@ -99,5 +101,3 @@ Screenshots
 
 
 
-pip install -r requirements.txt
-# edit SECRET_KEY & DB settings as needed
