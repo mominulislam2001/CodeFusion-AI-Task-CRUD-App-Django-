@@ -1,0 +1,17 @@
+{% extends 'codefusionapp/base.html' %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<div class="d-flex justify-content-center align-items-center vh-100">
+  <div class="card p-3 shadow" style="min-width: 320px; max-width: 520px;">
+    <h3 class="mb-2 text-center">Sign in</h3>
+
+    <form method="post">{% csrf_token %}
+        {{ form.as_p }}
+
+       <button class="btn btn-primary ms-auto d-block">Login</button>
+
+   
+    </form>
+  </div>
+</div>
+{% endblock %}
