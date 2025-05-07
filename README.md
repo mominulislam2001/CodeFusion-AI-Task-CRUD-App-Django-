@@ -50,19 +50,44 @@ A full-stack Django application that
 git clone https://github.com/mominulislam2001/CodeFusionAI-Task.git
 cd CodeFusionAI-Task
 
+```
+
+Screenshots
 
 <div align="center">
-Login
 
-All Countries
+### Login
 
-Search by Name | Language Filter
-<img src="project_screenshots/search-country.png" width="45%"/> <img src="project_screenshots/filter-language.png" width="45%"/>
-Filter Result | Add Country
-<img src="project_screenshots/filter-language-result.png" width="45%"/> <img src="project_screenshots/add-country.png" width="45%"/>
-Edit Country | Details + Same Region
-<img src="project_screenshots/edit-country.png" width="45%"/> <img src="project_screenshots/Screenshot From 2025-05-07 19-16-05.png" width="45%"/> </div>
-python -m venv venv && source venv/bin/activate
+![Login page](project_screenshots/login.png)
+
+### All Countries (main table)
+
+![All countries](project_screenshots/all-counties.png)
+
+### Search by Country Name
+
+![Search example](project_screenshots/search-country.png)
+
+### Filter by Language
+
+![Language dropdown](project_screenshots/filter-language.png)
+![Language filter result](project_screenshots/filter-language-result.png)
+
+### Add Country Form
+
+![Add country](project_screenshots/add-country.png)
+
+### Edit Country
+
+![Edit country](project_screenshots/edit-country.png)
+
+### Details & Same-Region (example)
+
+![Details page](project_screenshots/Screenshot From 2025-05-07 19-16-05.png)
+
+</div>
+
+
 
 pip install -r requirements.txt
 # edit SECRET_KEY & DB settings as needed
